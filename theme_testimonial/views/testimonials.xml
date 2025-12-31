@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="homepage" inherit_id="website.homepage" name="Testimonials Variety Pack" priority="99">
+        <xpath expr="." position="replace">
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure oe_empty limit-min homepage theme_testimonial">
+                
+                <!-- Hero Section -->
+                <section class="testimonials-hero" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 5rem 0; text-align: center;">
+                    <div class="container">
+                        <h1 style="color: white; font-size: 3.5rem; font-weight: 900; margin-bottom: 1rem;">
+                            Testimonials Variety Pack
+                        </h1>
+                        <p style="color: rgba(255,255,255,0.9); font-size: 1.25rem; max-width: 600px; margin: 0 auto;">
+                            35+ Beautiful Testimonial Layouts for Your Odoo Website
+                        </p>
+                    </div>
+                </section>
+
+                <section class="py-5" style="background: #0f172a;">
+                    <div class="container">
+                        
+                        <!-- Testimonial 1: Classic Card Grid -->
+                        <h2 class="testimonial-section-title">1. Classic Card Grid</h2>
+                        <div class="testimonial-grid-classic">
+                            <div class="testimonial-card classic">
+                                <div class="stars">★★★★★</div>
+                                <p class="quote">"Absolutely amazing service! The team went above and beyond to ensure our satisfaction. Highly recommended!"</p>
+                                <div class="author-info">
+                                    <div class="avatar">JD</div>
+                                    <div>
+                                        <h4>John Doe</h4>
+                                        <p>CEO, Tech Corp</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-card classic">
+                                <div class="stars">★★★★★</div>
+                                <p class="quote">"The best decision we ever made. Incredible results and outstanding customer support throughout."</p>
+                                <div class="author-info">
+                                    <div class="avatar">SM</div>
+                                    <div>
+                                        <h4>Sarah Miller</h4>
+                                        <p>Marketing Director</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-card classic">
+                                <div class="stars">★★★★★</div>
+                                <p class="quote">"Revolutionary platform that transformed our business operations. Can't imagine working without it!"</p>
+                                <div class="author-info">
+                                    <div class="avatar">RJ</div>
+                                    <div>
+                                        <h4>Robert Johnson</h4>
+                                        <p>Founder, StartupXYZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2: Modern Glassmorphism -->
+                        <h2 class="testimonial-section-title">2. Modern Glassmorphism</h2>
+                        <div class="testimonial-grid-glass">
+                            <div class="testimonial-card glass">
+                                <div class="quote-icon">"</div>
+                                <p class="quote">Outstanding quality and attention to detail. This has exceeded all our expectations!</p>
+                                <div class="author-glass">
+                                    <strong>Emily Chen</strong>
+                                    <span>Product Manager</span>
+                                </div>
+                                <div class="stars-modern">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <div class="testimonial-card glass">
+                                <div class="quote-icon">"</div>
+                                <p class="quote">Game-changing solution that delivered results beyond our wildest dreams. Simply phenomenal!</p>
+                                <div class="author-glass">
+                                    <strong>Michael Brown</strong>
+                                    <span>Operations Lead</span>
+                                </div>
+                                <div class="stars-modern">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <div class="testimonial-card glass">
+                                <div class="quote-icon">"</div>
+                                <p class="quote">Professional, reliable, and incredibly efficient. A true partner in our success story.</p>
+                                <div class="author-glass">
+                                    <strong>Lisa Wang</strong>
+                                    <span>Creative Director</span>
+                                </div>
+                                <div class="stars-modern">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3: Horizontal Scroll Marquee -->
+                        <h2 class="testimonial-section-title">3. Horizontal Scroll Marquee</h2>
+                        <div class="testimonial-marquee-wrapper">
+                            <div class="testimonial-marquee">
+                                <div class="testimonial-marquee-item">
+                                    <p>"Exceptional service! 🎯"</p>
+                                    <span>— Alex K.</span>
+                                </div>
+                                <div class="testimonial-marquee-item">
+                                    <p>"Transformed our workflow! 🚀"</p>
+                                    <span>— Jamie L.</span>
+                                </div>
+                                <div class="testimonial-marquee-item">
+                                    <p>"Highly recommended! ⭐"</p>
+                                    <span>— Chris P.</span>
+                                </div>
+                                <div class="testimonial-marquee-item">
+                                    <p>"Best investment ever! 💎"</p>
+                                    <span>— Taylor M.</span>
+                                </div>
+                                <div class="testimonial-marquee-item">
+                                    <p>"Absolutely brilliant! ✨"</p>
+                                    <span>— Jordan S.</span>
+                                </div>
+                                <!-- Duplicate for seamless loop -->
+                                <div class="testimonial-marquee-item">
+                                    <p>"Exceptional service! 🎯"</p>
+                                    <span>— Alex K.</span>
+                                </div>
+                                <div class="testimonial-marquee-item">
+                                    <p>"Transformed our workflow! 🚀"</p>
+                                    <span>— Jamie L.</span>
+                                </div>
+                                <div class="testimonial-marquee-item">
+                                    <p>"Highly recommended! ⭐"</p>
+                                    <span>— Chris P.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 4: Masonry Layout -->
+                        <h2 class="testimonial-section-title">4. Masonry Grid Layout</h2>
+                        <div class="testimonial-masonry">
+                            <div class="testimonial-masonry-item">
+                                <div class="rating">★★★★★</div>
+                                <p>"Quick, efficient, and professional. Everything we needed and more!"</p>
+                                <div class="author-simple">— David Thompson</div>
+                            </div>
+                            <div class="testimonial-masonry-item long">
+                                <div class="rating">★★★★★</div>
+                                <p>"This platform has completely revolutionized how we do business. The features are intuitive, the support is exceptional, and the results speak for themselves. We've seen a 300% increase in productivity since implementing this solution. Couldn't be happier with our choice!"</p>
+                                <div class="author-simple">— Rachel Green, VP of Sales</div>
+                            </div>
+                            <div class="testimonial-masonry-item">
+                                <div class="rating">★★★★★</div>
+                                <p>"Outstanding value and incredible team support!"</p>
+                                <div class="author-simple">— Tom Wilson</div>
+                            </div>
+                            <div class="testimonial-masonry-item">
+                                <div class="rating">★★★★★</div>
+                                <p>"Innovative solution that actually delivers on its promises. Rare find!"</p>
+                                <div class="author-simple">— Nina Patel</div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 5: Carousel Slider -->
+                        <h2 class="testimonial-section-title">5. Carousel Slider</h2>
+                        <div class="testimonial-carousel-container">
+                            <div class="testimonial-carousel" id="carousel1">
+                                <div class="testimonial-slide active">
+                                    <div class="slide-content">
+                                        <div class="quote-large">"</div>
+                                        <p class="quote-text">The level of professionalism and expertise is unmatched. They've helped us achieve goals we thought were impossible!</p>
+                                        <div class="author-carousel">
+                                            <div class="avatar-large">MB</div>
+                                            <div>
+                                                <h3>Maria Benítez</h3>
+                                                <p>Chief Innovation Officer</p>
+                                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-slide">
+                                    <div class="slide-content">
+                                        <div class="quote-large">"</div>
+                                        <p class="quote-text">Fantastic experience from start to finish. The results exceeded our expectations in every possible way!</p>
+                                        <div class="author-carousel">
+                                            <div class="avatar-large">JL</div>
+                                            <div>
+                                                <h3>James Lee</h3>
+                                                <p>Technology Director</p>
+                                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-slide">
+                                    <div class="slide-content">
+                                        <div class="quote-large">"</div>
+                                        <p class="quote-text">Incredible value and ROI. This investment has paid for itself many times over. Truly transformative!</p>
+                                        <div class="author-carousel">
+                                            <div class="avatar-large">SK</div>
+                                            <div>
+                                                <h3>Sophia Kim</h3>
+                                                <p>Financial Controller</p>
+                                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-dots" data-carousel="carousel1">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 6: Vertical Timeline -->
+                        <h2 class="testimonial-section-title">6. Vertical Timeline</h2>
+                        <div class="testimonial-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">Jan 2024</div>
+                                <div class="timeline-content">
+                                    <div class="stars-mini">★★★★★</div>
+                                    <p>"Started using this platform and immediately saw improvements in our workflow!"</p>
+                                    <div class="author-timeline">— Patricia Moore</div>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">Mar 2024</div>
+                                <div class="timeline-content">
+                                    <div class="stars-mini">★★★★★</div>
+                                    <p>"Three months in and we've already tripled our efficiency. Remarkable results!"</p>
+                                    <div class="author-timeline">— Kevin Zhang</div>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">Jun 2024</div>
+                                <div class="timeline-content">
+                                    <div class="stars-mini">★★★★★</div>
+                                    <p>"Six months and counting - this tool has become indispensable to our daily operations!"</p>
+                                    <div class="author-timeline">— Amanda Rivera</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 7: Bento Grid Style -->
+                        <h2 class="testimonial-section-title">7. Bento Grid Modern</h2>
+                        <div class="testimonial-bento">
+                            <div class="bento-item large">
+                                <div class="featured-badge">Featured</div>
+                                <p class="quote-bento">"This is hands down the best solution we've implemented. The ROI has been exceptional and the team support is world-class. Every feature is thoughtfully designed and the platform keeps getting better!"</p>
+                                <div class="author-bento">
+                                    <div class="avatar-bento">CW</div>
+                                    <div>
+                                        <h4>Catherine Williams</h4>
+                                        <p>Enterprise Client</p>
+                                        <div class="stars-sm">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bento-item">
+                                <p class="quote-bento">"Fast, reliable, and feature-rich!"</p>
+                                <div class="author-bento-sm">
+                                    <span class="name">Daniel Scott</span>
+                                    <div class="stars-xs">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <div class="bento-item">
+                                <p class="quote-bento">"Exceeded all expectations!"</p>
+                                <div class="author-bento-sm">
+                                    <span class="name">Olivia Martinez</span>
+                                    <div class="stars-xs">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <div class="bento-item wide">
+                                <p class="quote-bento">"The perfect blend of power and simplicity. Incredible platform!"</p>
+                                <div class="author-bento-sm">
+                                    <span class="name">Ryan Cooper | CTO, Innovation Labs</span>
+                                    <div class="stars-xs">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 8: Minimal Clean -->
+                        <h2 class="testimonial-section-title">8. Minimal Clean Design</h2>
+                        <div class="testimonial-minimal">
+                            <div class="minimal-item">
+                                <p class="quote-minimal">"Elegantly simple yet incredibly powerful."</p>
+                                <div class="author-minimal">
+                                    <span class="name-minimal">Grace Park</span>
+                                    <span class="role-minimal">Design Lead</span>
+                                </div>
+                            </div>
+                            <div class="minimal-item">
+                                <p class="quote-minimal">"Clean interface, powerful features."</p>
+                                <div class="author-minimal">
+                                    <span class="name-minimal">Marcus Johnson</span>
+                                    <span class="role-minimal">Product Owner</span>
+                                </div>
+                            </div>
+                            <div class="minimal-item">
+                                <p class="quote-minimal">"Streamlined perfection in every detail."</p>
+                                <div class="author-minimal">
+                                    <span class="name-minimal">Yuki Tanaka</span>
+                                    <span class="role-minimal">UX Director</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 9: Card Stack 3D -->
+                        <h2 class="testimonial-section-title">9. 3D Card Stack</h2>
+                        <div class="testimonial-stack-3d">
+                            <div class="stack-card" style="--index: 0;">
+                                <div class="card-front">
+                                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                                    <p class="quote-stack">"The innovation here is remarkable. Every feature is meticulously crafted!"</p>
+                                    <div class="author-stack">
+                                        <strong>Isabella Rodriguez</strong>
+                                        <span>Innovation Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stack-card" style="--index: 1;">
+                                <div class="card-front">
+                                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                                    <p class="quote-stack">"Absolutely transformed how we approach our daily challenges!"</p>
+                                    <div class="author-stack">
+                                        <strong>William Foster</strong>
+                                        <span>Strategy Consultant</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stack-card" style="--index: 2;">
+                                <div class="card-front">
+                                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                                    <p class="quote-stack">"Premium quality with outstanding customer care. Truly exceptional!"</p>
+                                    <div class="author-stack">
+                                        <strong>Naomi Hughes</strong>
+                                        <span>Client Success Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 10: Split Screen -->
+                        <h2 class="testimonial-section-title">10. Split Screen Dual</h2>
+                        <div class="testimonial-split">
+                            <div class="split-left">
+                                <div class="quote-split">"</div>
+                                <p class="text-split">Outstanding platform that delivers on every promise. The attention to detail is phenomenal!</p>
+                                <div class="author-split">
+                                    <h4>Alexander Chen</h4>
+                                    <p>Digital Strategist</p>
+                                </div>
+                            </div>
+                            <div class="split-right">
+                                <div class="stars-split">★★★★★</div>
+                                <div class="highlights">
+                                    <div class="highlight-item">✓ Easy to Use</div>
+                                    <div class="highlight-item">✓ Great Support</div>
+                                    <div class="highlight-item">✓ High ROI</div>
+                                    <div class="highlight-item">✓ Scalable</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 11: Gradient Cards -->
+                        <h2 class="testimonial-section-title">11. Vibrant Gradient Cards</h2>
+                        <div class="testimonial-gradient-grid">
+                            <div class="gradient-card gradient-purple">
+                                <div class="card-glow"></div>
+                                <p class="quote-gradient">"Innovation at its finest! This platform continues to amaze us."</p>
+                                <div class="author-gradient">
+                                    <span>Victoria James</span>
+                                    <div class="stars-glow">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <div class="gradient-card gradient-blue">
+                                <div class="card-glow"></div>
+                                <p class="quote-gradient">"Powerful, intuitive, and beautifully designed solution!"</p>
+                                <div class="author-gradient">
+                                    <span>Benjamin Clark</span>
+                                    <div class="stars-glow">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <div class="gradient-card gradient-pink">
+                                <div class="card-glow"></div>
+                                <p class="quote-gradient">"Best-in-class features with exceptional value!"</p>
+                                <div class="author-gradient">
+                                    <span>Emma Wilson</span>
+                                    <div class="stars-glow">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 12: Video Style Background -->
+                        <h2 class="testimonial-section-title">12. Video Background Style</h2>
+                        <div class="testimonial-video-bg">
+                            <div class="video-overlay"></div>
+                            <div class="testimonial-content-video">
+                                <div class="quote-video">"</div>
+                                <p class="text-video">This solution has revolutionized our entire operation. The results are simply phenomenal!</p>
+                                <div class="author-video">
+                                    <div class="avatar-video">LS</div>
+                                    <div>
+                                        <h3>Laura Sanders</h3>
+                                        <p>Operations Director</p>
+                                        <div class="stars-video">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 13: Neon Style -->
+                        <h2 class="testimonial-section-title">13. Neon Cyberpunk</h2>
+                        <div class="testimonial-neon-container">
+                            <div class="neon-card">
+                                <div class="neon-border"></div>
+                                <div class="stars-neon">★★★★★</div>
+                                <p class="quote-neon">"Futuristic platform with cutting-edge features!"</p>
+                                <div class="author-neon">
+                                    <span class="neon-text">— Tyler Morgan</span>
+                                </div>
+                            </div>
+                            <div class="neon-card">
+                                <div class="neon-border"></div>
+                                <div class="stars-neon">★★★★★</div>
+                                <p class="quote-neon">"Next-generation solution that's ahead of its time!"</p>
+                                <div class="author-neon">
+                                    <span class="neon-text">— Zara Knight</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 14: Floating Bubbles -->
+                        <h2 class="testimonial-section-title">14. Floating Bubbles</h2>
+                        <div class="testimonial-bubbles">
+                            <div class="bubble-item bubble-1">
+                                <p>"Amazing! ⭐⭐⭐⭐⭐"</p>
+                                <span>— Sophie</span>
+                            </div>
+                            <div class="bubble-item bubble-2">
+                                <p>"Love it! 💖"</p>
+                                <span>— Max</span>
+                            </div>
+                            <div class="bubble-item bubble-3">
+                                <p>"Incredible! 🚀"</p>
+                                <span>— Luna</span>
+                            </div>
+                            <div class="bubble-item bubble-4">
+                                <p>"Perfect! ✨"</p>
+                                <span>— Noah</span>
+                            </div>
+                            <div class="bubble-item bubble-5">
+                                <p>"Fantastic! 🎯"</p>
+                                <span>— Mia</span>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 15: Testimonial Wall -->
+                        <h2 class="testimonial-section-title">15. Testimonial Wall</h2>
+                        <div class="testimonial-wall">
+                            <div class="wall-column">
+                                <div class="wall-item">
+                                    <div class="stars-wall">⭐⭐⭐⭐⭐</div>
+                                    <p>"Excellent service and support!"</p>
+                                    <span>— Harper Lee</span>
+                                </div>
+                                <div class="wall-item">
+                                    <div class="stars-wall">⭐⭐⭐⭐⭐</div>
+                                    <p>"Game changer for our business!"</p>
+                                    <span>— Ethan Hunt</span>
+                                </div>
+                                <div class="wall-item">
+                                    <div class="stars-wall">⭐⭐⭐⭐⭐</div>
+                                    <p>"Highly professional team!"</p>
+                                    <span>— Ava Brooks</span>
+                                </div>
+                            </div>
+                            <div class="wall-column">
+                                <div class="wall-item">
+                                    <div class="stars-wall">⭐⭐⭐⭐⭐</div>
+                                    <p>"Exceeded our expectations completely!"</p>
+                                    <span>— Liam Carter</span>
+                                </div>
+                                <div class="wall-item">
+                                    <div class="stars-wall">⭐⭐⭐⭐⭐</div>
+                                    <p>"Reliable and innovative solution!"</p>
+                                    <span>— Chloe Adams</span>
+                                </div>
+                                <div class="wall-item">
+                                    <div class="stars-wall">⭐⭐⭐⭐⭐</div>
+                                    <p>"Best investment we've made!"</p>
+                                    <span>— Mason White</span>
+                                </div>
+                            </div>
+                            <div class="wall-column">
+                                <div class="wall-item">
+                                    <div class="stars-wall">⭐⭐⭐⭐⭐</div>
+                                    <p>"Outstanding platform and features!"</p>
+                                    <span>— Ella Davis</span>
+                                </div>
+                                <div class="wall-item">
+                                    <div class="stars-wall">⭐⭐⭐⭐⭐</div>
+                                    <p>"Transformed our workflow entirely!"</p>
+                                    <span>— Logan Miller</span>
+                                </div>
+                                <div class="wall-item">
+                                    <div class="stars-wall">⭐⭐⭐⭐⭐</div>
+                                    <p>"Simply phenomenal results!"</p>
+                                    <span>— Aria Taylor</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add more variations... -->
+                        <!-- Testimonial 16: Compact  List -->
+                        <h2 class="testimonial-section-title">16. Compact List View</h2>
+                        <div class="testimonial-compact">
+                            <div class="compact-item">
+                                <div class="rating-compact">⭐⭐⭐⭐⭐</div>
+                                <p class="quote-compact">"Exceptional quality and service!"</p>
+                                <span class="author-compact">Isabella Moore — VP Marketing</span>
+                            </div>
+                            <div class="compact-item">
+                                <div class="rating-compact">⭐⭐⭐⭐⭐</div>
+                                <p class="quote-compact">"Transformed how we operate!"</p>
+                                <span class="author-compact">Jackson Smith — Business Owner</span>
+                            </div>
+                            <div class="compact-item">
+                                <div class="rating-compact">⭐⭐⭐⭐⭐</div>
+                                <p class="quote-compact">"Highly recommend to everyone!"</p>
+                                <span class="author-compact">Sophia Turner — Consultant</span>
+                            </div>
+                            <div class="compact-item">
+                                <div class="rating-compact">⭐⭐⭐⭐⭐</div>
+                                <p class="quote-compact">"Best solution on the market!"</p>
+                                <span class="author-compact">Lucas Anderson — Entrepreneur</span>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 17: Hexagon Grid -->
+                        <h2 class="testimonial-section-title">17. Hexagon Grid</h2>
+                        <div class="testimonial-hexagon">
+                            <div class="hex-item">
+                                <div class="hex-content">
+                                    <p class="hex-quote">"Revolutionary!"</p>
+                                    <span class="hex-author">— Maya R.</span>
+                                    <div class="hex-stars">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <div class="hex-item">
+                                <div class="hex-content">
+                                    <p class="hex-quote">"Outstanding!"</p>
+                                    <span class="hex-author">— Blake T.</span>
+                                    <div class="hex-stars">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <div class="hex-item">
+                                <div class="hex-content">
+                                    <p class="hex-quote">"Remarkable!"</p>
+                                    <span class="hex-author">— Zoe M.</span>
+                                    <div class="hex-stars">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <div class="hex-item">
+                                <div class="hex-content">
+                                    <p class="hex-quote">"Brilliant!"</p>
+                                    <span class="hex-author">— Finn L.</span>
+                                    <div class="hex-stars">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 18: Polaroid Cards -->
+                        <h2 class="testimonial-section-title">18. Polaroid Style</h2>
+                        <div class="testimonial-polaroid">
+                            <div class="polaroid-card rotate-left">
+                                <div class="polaroid-img">
+                                    <div class="placeholder-img">👤</div>
+                                </div>
+                                <div class="polaroid-caption">
+                                    <p>"Absolutely brilliant platform!"</p>
+                                    <span>— Jasmine K.</span>
+                                    <div class="stars-pol">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <div class="polaroid-card rotate-right">
+                                <div class="polaroid-img">
+                                    <div class="placeholder-img">👤</div>
+                                </div>
+                                <div class="polaroid-caption">
+                                    <p>"Professional and reliable!"</p>
+                                    <span>— Oscar P.</span>
+                                    <div class="stars-pol">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <div class="polaroid-card rotate-left-small">
+                                <div class="polaroid-img">
+                                    <div class="placeholder-img">👤</div>
+                                </div>
+                                <div class="polaroid-caption">
+                                    <p>"Exceeded all expectations!"</p>
+                                    <span>— Ruby H.</span>
+                                    <div class="stars-pol">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 19: Twitter/X Style -->
+                        <h2 class="testimonial-section-title">19. Social Media Style</h2>
+                        <div class="testimonial-social">
+                            <div class="social-card">
+                                <div class="social-header">
+                                    <div class="social-avatar">AM</div>
+                                    <div class="social-info">
+                                        <strong>Alice Morgan</strong>
+                                        <span>@alicemorgan · 2h</span>
+                                    </div>
+                                </div>
+                                <p class="social-text">Just implemented this solution and WOW! 🚀 The results are incredible. Highly recommend to anyone looking for a game-changing platform! #innovation #success</p>
+                                <div class="social-footer">
+                                    <span>❤️ 234</span>
+                                    <span>♻️ 56</span>
+                                    <span>⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                            <div class="social-card">
+                                <div class="social-header">
+                                    <div class="social-avatar">DK</div>
+                                    <div class="social-info">
+                                        <strong>Derek King</strong>
+                                        <span>@derekking · 5h</span>
+                                    </div>
+                                </div>
+                                <p class="social-text">Three months in and this is hands down the best business decision we've made this year. ROI is through the roof! 📈💎 #business #growth</p>
+                                <div class="social-footer">
+                                    <span>❤️ 189</span>
+                                    <span>♻️ 42</span>
+                                    <span>⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 20: Quote Slider with Image -->
+                        <h2 class="testimonial-section-title">20. Featured Quote Slider</h2>
+                        <div class="testimonial-featured-slider">
+                            <div class="featured-slide active">
+                                <div class="featured-image">
+                                    <div class="featured-placeholder">🌟</div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="quote-mark">"</div>
+                                    <p class="featured-quote">This platform has completely transformed our business operations. The innovation and attention to detail is unparalleled in the industry!</p>
+                                    <div class="featured-author">
+                                        <h4>Dr. Helena Foster</h4>
+                                        <p>Chief Executive Officer, Global Enterprises</p>
+                                        <div class="stars-featured">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 21: Accordion Style -->
+                        <h2 class="testimonial-section-title">21. Accordion Expandable</h2>
+                        <div class="testimonial-accordion">
+                            <div class="accordion-testimonial">
+                                <div class="accordion-header">
+                                    <span class="stars-acc">⭐⭐⭐⭐⭐</span>
+                                    <strong>Patricia Anderson</strong>
+                                    <span class="toggle">+</span>
+                                </div>
+                                <div class="accordion-content">
+                                    <p>"The comprehensive features and intuitive interface make this platform stand out. We've seen remarkable improvements across all our KPIs. The support team is also incredibly responsive and helpful!"</p>
+                                </div>
+                            </div>
+                            <div class="accordion-testimonial">
+                                <div class="accordion-header">
+                                    <span class="stars-acc">⭐⭐⭐⭐⭐</span>
+                                    <strong>Marcus Rodriguez</strong>
+                                    <span class="toggle">+</span>
+                                </div>
+                                <div class="accordion-content">
+                                    <p>"Outstanding value for money. The platform delivers on every promise and continues to exceed our expectations with regular updates and new features."</p>
+                                </div>
+                            </div>
+                            <div class="accordion-testimonial">
+                                <div class="accordion-header">
+                                    <span class="stars-acc">⭐⭐⭐⭐⭐</span>
+                                    <strong>Jennifer Lee</strong>
+                                    <span class="toggle">+</span>
+                                </div>
+                                <div class="accordion-content">
+                                    <p>"Seamless integration and powerful analytics have helped us make data-driven decisions faster than ever before. Truly a game-changer!"</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 22: Stats Counter Style -->
+                        <h2 class="testimonial-section-title">22. Stats &amp; Testimonials</h2>
+                        <div class="testimonial-stats">
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <h3 class="stat-number">10,000+</h3>
+                                    <p>Happy Clients</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h3 class="stat-number">4.9/5</h3>
+                                    <p>Average Rating</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h3 class="stat-number">98%</h3>
+                                    <p>Satisfaction Rate</p>
+                                </div>
+                            </div>
+                            <div class="stats-testimonial">
+                                <div class="stars-stats">⭐⭐⭐⭐⭐</div>
+                                <p class="quote-stats">"The numbers speak for themselves. This is a platform you can trust!"</p>
+                                <span class="author-stats">— Christina Hayes, Analytics Director</span>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 23: Badge Grid -->
+                        <h2 class="testimonial-section-title">23. Badge Collection</h2>
+                        <div class="testimonial-badges">
+                            <div class="badge-item">
+                                <div class="badge-icon">🏆</div>
+                                <p>"Best Platform 2024"</p>
+                                <span>— Industry Awards</span>
+                            </div>
+                            <div class="badge-item">
+                                <div class="badge-icon">⭐</div>
+                                <p>"Top Rated Solution"</p>
+                                <span>— Customer Choice</span>
+                            </div>
+                            <div class="badge-item">
+                                <div class="badge-icon">💎</div>
+                                <p>"Premium Quality"</p>
+                                <span>— Expert Review</span>
+                            </div>
+                            <div class="badge-item">
+                                <div class="badge-icon">🚀</div>
+                                <p>"Fastest Growing"</p>
+                                <span>— Market Leaders</span>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 24: Vertical Carousel -->
+                        <h2 class="testimonial-section-title">24. Vertical Auto-Scroll</h2>
+                        <div class="testimonial-vertical-carousel">
+                            <div class="vertical-track">
+                                <div class="vertical-item">
+                                    <div class="stars-v">⭐⭐⭐⭐⭐</div>
+                                    <p>"Incredible platform with amazing features!"</p>
+                                    <span>— Diana Prince</span>
+                                </div>
+                                <div class="vertical-item">
+                                    <div class="stars-v">⭐⭐⭐⭐⭐</div>
+                                    <p>"Revolutionary approach to business solutions!"</p>
+                                    <span>— Bruce Wayne</span>
+                                </div>
+                                <div class="vertical-item">
+                                    <div class="stars-v">⭐⭐⭐⭐⭐</div>
+                                    <p>"Best investment for our company growth!"</p>
+                                    <span>— Clark Kent</span>
+                                </div>
+                                <div class="vertical-item">
+                                    <div class="stars-v">⭐⭐⭐⭐⭐</div>
+                                    <p>"Outstanding customer support and features!"</p>
+                                    <span>— Barry Allen</span>
+                                </div>
+                                <!-- Duplicates for seamless loop -->
+                                <div class="vertical-item">
+                                    <div class="stars-v">⭐⭐⭐⭐⭐</div>
+                                    <p>"Incredible platform with amazing features!"</p>
+                                    <span>— Diana Prince</span>
+                                </div>
+                                <div class="vertical-item">
+                                    <div class="stars-v">⭐⭐⭐⭐⭐</div>
+                                    <p>"Revolutionary approach to business solutions!"</p>
+                                    <span>— Bruce Wayne</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 25: Interactive Flip Cards -->
+                        <h2 class="testimonial-section-title">25. Interactive Flip Cards</h2>
+                        <div class="testimonial-flip-grid">
+                            <div class="flip-card">
+                                <div class="flip-inner">
+                                    <div class="flip-front">
+                                        <div class="flip-avatar">SC</div>
+                                        <h4>Samantha Cooper</h4>
+                                        <p>CEO &amp; Founder</p>
+                                        <div class="flip-hint">Hover to read →</div>
+                                    </div>
+                                    <div class="flip-back">
+                                        <div class="stars-flip">⭐⭐⭐⭐⭐</div>
+                                        <p>"This platform has revolutionized our entire workflow. Couldn't be happier!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card">
+                                <div class="flip-inner">
+                                    <div class="flip-front">
+                                        <div class="flip-avatar">TW</div>
+                                        <h4>Trevor Walsh</h4>
+                                        <p>Tech Director</p>
+                                        <div class="flip-hint">Hover to read →</div>
+                                    </div>
+                                    <div class="flip-back">
+                                        <div class="stars-flip">⭐⭐⭐⭐⭐</div>
+                                        <p>"Innovative, powerful, and incredibly intuitive. Exactly what we needed!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card">
+                                <div class="flip-inner">
+                                    <div class="flip-front">
+                                        <div class="flip-avatar">NK</div>
+                                        <h4>Nicole Kim</h4>
+                                        <p>Product Manager</p>
+                                        <div class="flip-hint">Hover to read →</div>
+                                    </div>
+                                    <div class="flip-back">
+                                        <div class="stars-flip">⭐⭐⭐⭐⭐</div>
+                                        <p>"Exceptional quality and outstanding support. Highly recommended to all!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 26: Diagonal Stack -->
+                        <h2 class="testimonial-section-title">26. Diagonal Stacked Cards</h2>
+                        <div class="testimonial-diagonal-stack">
+                            <div class="diagonal-card" style="--order: 1;">
+                                <div class="diagonal-content">
+                                    <div class="stars-diagonal">⭐⭐⭐⭐⭐</div>
+                                    <p class="quote-diagonal">"Innovative solution that thinks outside the box!"</p>
+                                    <span class="author-diagonal">— Rachel Adams</span>
+                                </div>
+                            </div>
+                            <div class="diagonal-card" style="--order: 2;">
+                                <div class="diagonal-content">
+                                    <div class="stars-diagonal">⭐⭐⭐⭐⭐</div>
+                                    <p class="quote-diagonal">"Streamlined workflow and incredible efficiency!"</p>
+                                    <span class="author-diagonal">— Mike Stevens</span>
+                                </div>
+                            </div>
+                            <div class="diagonal-card" style="--order: 3;">
+                                <div class="diagonal-content">
+                                    <div class="stars-diagonal">⭐⭐⭐⭐⭐</div>
+                                    <p class="quote-diagonal">"Best decision for our business growth!"</p>
+                                    <span class="author-diagonal">— Linda Chen</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 27: Radial Burst Layout -->
+                        <h2 class="testimonial-section-title">27. Radial Burst Layout</h2>
+                        <div class="testimonial-radial-container">
+                            <div class="radial-center">
+                                <div class="center-badge">
+                                    <h3>5.0</h3>
+                                    <p>Average Rating</p>
+                                </div>
+                            </div>
+                            <div class="radial-item" style="--angle: 0deg;">
+                                <p>"Perfect! ⭐⭐⭐⭐⭐"</p>
+                                <span>— Alex</span>
+                            </div>
+                            <div class="radial-item" style="--angle: 72deg;">
+                                <p>"Amazing! 🎯"</p>
+                                <span>— Jordan</span>
+                            </div>
+                            <div class="radial-item" style="--angle: 144deg;">
+                                <p>"Superb! 💎"</p>
+                                <span>— Sam</span>
+                            </div>
+                            <div class="radial-item" style="--angle: 216deg;">
+                                <p>"Brilliant! ✨"</p>
+                                <span>— Casey</span>
+                            </div>
+                            <div class="radial-item" style="--angle: 288deg;">
+                                <p>"Excellent! 🚀"</p>
+                                <span>— Morgan</span>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 28: Netflix-Style Slider -->
+                        <h2 class="testimonial-section-title">28. Netflix-Style Slider</h2>
+                        <div class="testimonial-netflix-container">
+                            <button class="netflix-nav netflix-prev">‹</button>
+                            <div class="netflix-slider" id="netflixSlider">
+                                <div class="netflix-card">
+                                    <div class="netflix-thumb">🌟</div>
+                                    <h4>Outstanding Platform</h4>
+                                    <p>"Revolutionary approach to business solutions!"</p>
+                                    <div class="netflix-author">— Dr. Sarah Johnson</div>
+                                    <div class="netflix-rating">⭐⭐⭐⭐⭐</div>
+                                </div>
+                                <div class="netflix-card">
+                                    <div class="netflix-thumb">💼</div>
+                                    <h4>Professional Excellence</h4>
+                                    <p>"Exceeded every expectation we had!"</p>
+                                    <div class="netflix-author">— James Mitchell</div>
+                                    <div class="netflix-rating">⭐⭐⭐⭐⭐</div>
+                                </div>
+                                <div class="netflix-card">
+                                    <div class="netflix-thumb">🎯</div>
+                                    <h4>Results Driven</h4>
+                                    <p>"Measurable ROI from day one!"</p>
+                                    <div class="netflix-author">— Emma Thompson</div>
+                                    <div class="netflix-rating">⭐⭐⭐⭐⭐</div>
+                                </div>
+                                <div class="netflix-card">
+                                    <div class="netflix-thumb">⚡</div>
+                                    <h4>Lightning Fast</h4>
+                                    <p>"Speed and efficiency combined perfectly!"</p>
+                                    <div class="netflix-author">— Chris Anderson</div>
+                                    <div class="netflix-rating">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <button class="netflix-nav netflix-next">›</button>
+                        </div>
+
+                        <!-- Testimonial 29: Infinite Horizontal Loop -->
+                        <h2 class="testimonial-section-title">29. Seamless Infinite Loop</h2>
+                        <div class="testimonial-infinite-loop">
+                            <div class="loop-track">
+                                <div class="loop-item">
+                                    <div class="loop-avatar">JD</div>
+                                    <div class="loop-content">
+                                        <strong>John Davis</strong>
+                                        <p>"Absolutely fantastic product!"</p>
+                                        <div class="loop-stars">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                                <div class="loop-item">
+                                    <div class="loop-avatar">KW</div>
+                                    <div class="loop-content">
+                                        <strong>Kate Wilson</strong>
+                                        <p>"Game-changing solution for us!"</p>
+                                        <div class="loop-stars">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                                <div class="loop-item">
+                                    <div class="loop-avatar">TB</div>
+                                    <div class="loop-content">
+                                        <strong>Tom Brown</strong>
+                                        <p>"Highly recommend to everyone!"</p>
+                                        <div class="loop-stars">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                                <div class="loop-item">
+                                    <div class="loop-avatar">LG</div>
+                                    <div class="loop-content">
+                                        <strong>Lisa Garcia</strong>
+                                        <p>"Best investment we've made!"</p>
+                                        <div class="loop-stars">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                                <!-- Duplicates for seamless loop -->
+                                <div class="loop-item">
+                                    <div class="loop-avatar">JD</div>
+                                    <div class="loop-content">
+                                        <strong>John Davis</strong>
+                                        <p>"Absolutely fantastic product!"</p>
+                                        <div class="loop-stars">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                                <div class="loop-item">
+                                    <div class="loop-avatar">KW</div>
+                                    <div class="loop-content">
+                                        <strong>Kate Wilson</strong>
+                                        <p>"Game-changing solution for us!"</p>
+                                        <div class="loop-stars">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 30: Video Testimonials Grid -->
+                        <h2 class="testimonial-section-title">30. Video Testimonials Grid</h2>
+                        <div class="testimonial-video-grid">
+                            <div class="video-testimonial-card">
+                                <div class="video-thumbnail">
+                                    <div class="play-icon">▶</div>
+                                    <div class="video-overlay">🎥</div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>Customer Success Story</h4>
+                                    <p>"Watch how we transformed our business"</p>
+                                    <div class="video-meta">
+                                        <span>👤 Jennifer Lee</span>
+                                        <span>⭐⭐⭐⭐⭐</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-testimonial-card">
+                                <div class="video-thumbnail">
+                                    <div class="play-icon">▶</div>
+                                    <div class="video-overlay">🎬</div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>ROI Case Study</h4>
+                                    <p>"300% growth in 6 months"</p>
+                                    <div class="video-meta">
+                                        <span>👤 Mark Thompson</span>
+                                        <span>⭐⭐⭐⭐⭐</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-testimonial-card">
+                                <div class="video-thumbnail">
+                                    <div class="play-icon">▶</div>
+                                    <div class="video-overlay">📹</div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>Team Interview</h4>
+                                    <p>"Why we chose this platform"</p>
+                                    <div class="video-meta">
+                                        <span>👤 Sarah Miller</span>
+                                        <span>⭐⭐⭐⭐⭐</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 31: Parallax Quote Overlay -->
+                        <h2 class="testimonial-section-title">31. Parallax Quote Overlay</h2>
+                        <div class="testimonial-parallax-container">
+                            <div class="parallax-bg"></div>
+                            <div class="parallax-quote">
+                                <div class="quote-symbol">"</div>
+                                <p class="parallax-text">This platform has completely revolutionized how we approach our business. The innovation, support, and results have been absolutely phenomenal!</p>
+                                <div class="parallax-author">
+                                    <div class="parallax-avatar">RM</div>
+                                    <div>
+                                        <h4>Robert Martinez</h4>
+                                        <p>CEO, Fortune 500 Company</p>
+                                        <div class="parallax-stars">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 32: Ticker Newsfeed Style -->
+                        <h2 class="testimonial-section-title">32. Live Ticker Feed</h2>
+                        <div class="testimonial-ticker-container">
+                            <div class="ticker-header">
+                                <span class="ticker-label">LIVE REVIEWS</span>
+                                <span class="ticker-pulse">●</span>
+                            </div>
+                            <div class="ticker-feed">
+                                <div class="ticker-item">
+                                    <span class="ticker-time">2min ago</span>
+                                    <span class="ticker-rating">⭐⭐⭐⭐⭐</span>
+                                    <span class="ticker-text">"Outstanding service!" - <strong>Angela Roberts</strong></span>
+                                </div>
+                                <div class="ticker-item">
+                                    <span class="ticker-time">5min ago</span>
+                                    <span class="ticker-rating">⭐⭐⭐⭐⭐</span>
+                                    <span class="ticker-text">"Exceeded expectations!" - <strong>David Chang</strong></span>
+                                </div>
+                                <div class="ticker-item">
+                                    <span class="ticker-time">8min ago</span>
+                                    <span class="ticker-rating">⭐⭐⭐⭐⭐</span>
+                                    <span class="ticker-text">"Highly recommended!" - <strong>Nicole Sanders</strong></span>
+                                </div>
+                                <div class="ticker-item">
+                                    <span class="ticker-time">12min ago</span>
+                                    <span class="ticker-rating">⭐⭐⭐⭐⭐</span>
+                                    <span class="ticker-text">"Game changer!" - <strong>Kevin Park</strong></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 33: Scale Effect Carousel -->
+                        <h2 class="testimonial-section-title">33. Scale Effect Carousel</h2>
+                        <div class="testimonial-scale-carousel">
+                            <div class="scale-track" id="scaleCarousel">
+                                <div class="scale-card active">
+                                    <div class="scale-content">
+                                        <div class="scale-quote">"Transformative experience from start to finish!"</div>
+                                        <div class="scale-author">
+                                            <div class="scale-avatar">PC</div>
+                                            <div>
+                                                <strong>Patricia Collins</strong>
+                                                <span>Marketing Director</span>
+                                            </div>
+                                        </div>
+                                        <div class="scale-rating">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                                <div class="scale-card">
+                                    <div class="scale-content">
+                                        <div class="scale-quote">"Incredible platform with amazing results!"</div>
+                                        <div class="scale-author">
+                                            <div class="scale-avatar">BJ</div>
+                                            <div>
+                                                <strong>Brian Jackson</strong>
+                                                <span>Operations Manager</span>
+                                            </div>
+                                        </div>
+                                        <div class="scale-rating">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                                <div class="scale-card">
+                                    <div class="scale-content">
+                                        <div class="scale-quote">"Professional, efficient, and highly effective!"</div>
+                                        <div class="scale-author">
+                                            <div class="scale-avatar">MR</div>
+                                            <div>
+                                                <strong>Michelle Rodriguez</strong>
+                                                <span>Product Lead</span>
+                                            </div>
+                                        </div>
+                                        <div class="scale-rating">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scale-controls">
+                                <button class="scale-btn scale-prev">←</button>
+                                <button class="scale-btn scale-next">→</button>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 34: Spotlight Focus -->
+                        <h2 class="testimonial-section-title">34. Spotlight Focus Effect</h2>
+                        <div class="testimonial-spotlight-container">
+                            <div class="spotlight-grid">
+                                <div class="spotlight-card">
+                                    <div class="spotlight-glow"></div>
+                                    <div class="spotlight-content">
+                                        <div class="spotlight-icon">💡</div>
+                                        <h4>Innovation Leader</h4>
+                                        <p>"Setting new standards in the industry"</p>
+                                        <span class="spotlight-author">— Tech Magazine</span>
+                                        <div class="spotlight-rating">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                                <div class="spotlight-card">
+                                    <div class="spotlight-glow"></div>
+                                    <div class="spotlight-content">
+                                        <div class="spotlight-icon">🏆</div>
+                                        <h4>Award Winner</h4>
+                                        <p>"Best platform of the year 2024"</p>
+                                        <span class="spotlight-author">— Industry Awards</span>
+                                        <div class="spotlight-rating">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                                <div class="spotlight-card">
+                                    <div class="spotlight-glow"></div>
+                                    <div class="spotlight-content">
+                                        <div class="spotlight-icon">🎖️</div>
+                                        <h4>Customer Choice</h4>
+                                        <p>"Voted #1 by users worldwide"</p>
+                                        <span class="spotlight-author">— Global Survey</span>
+                                        <div class="spotlight-rating">⭐⭐⭐⭐⭐</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 35: Multi-Tier Rating Display -->
+                        <h2 class="testimonial-section-title">35. Multi-Tier Rating Display</h2>
+                        <div class="testimonial-rating-tiers">
+                            <div class="rating-overview">
+                                <div class="overall-rating">
+                                    <h2>4.9</h2>
+                                    <div class="overall-stars">⭐⭐⭐⭐⭐</div>
+                                    <p>Based on 10,000+ reviews</p>
+                                </div>
+                                <div class="rating-breakdown">
+                                    <div class="rating-bar-item">
+                                        <span>5 stars</span>
+                                        <div class="rating-bar">
+                                            <div class="rating-fill" style="width: 92%;"></div>
+                                        </div>
+                                        <span>92%</span>
+                                    </div>
+                                    <div class="rating-bar-item">
+                                        <span>4 stars</span>
+                                        <div class="rating-bar">
+                                            <div class="rating-fill" style="width: 6%;"></div>
+                                        </div>
+                                        <span>6%</span>
+                                    </div>
+                                    <div class="rating-bar-item">
+                                        <span>3 stars</span>
+                                        <div class="rating-bar">
+                                            <div class="rating-fill" style="width: 1%;"></div>
+                                        </div>
+                                        <span>1%</span>
+                                    </div>
+                                    <div class="rating-bar-item">
+                                        <span>2 stars</span>
+                                        <div class="rating-bar">
+                                            <div class="rating-fill" style="width: 0.5%;"></div>
+                                        </div>
+                                        <span>0.5%</span>
+                                    </div>
+                                    <div class="rating-bar-item">
+                                        <span>1 star</span>
+                                        <div class="rating-bar">
+                                            <div class="rating-fill" style="width: 0.5%;"></div>
+                                        </div>
+                                        <span>0.5%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rating-highlights">
+                                <div class="highlight-card">
+                                    <h4>Most Helpful Review</h4>
+                                    <div class="highlight-stars">⭐⭐⭐⭐⭐</div>
+                                    <p>"Comprehensive solution that delivers on every promise. The support team is exceptional!"</p>
+                                    <span class="highlight-author">— Amanda Foster</span>
+                                    <div class="helpful">👍 245 people found this helpful</div>
+                                </div>
+                                <div class="highlight-card">
+                                    <h4>Recent Review</h4>
+                                    <div class="highlight-stars">⭐⭐⭐⭐⭐</div>
+                                    <p>"Just started using it and already seeing amazing results. Highly recommended!"</p>
+                                    <span class="highlight-author">— Thomas Wright</span>
+                                    <div class="helpful">👍 89 people found this helpful</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>

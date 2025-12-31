@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials Variety Pack - Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        .preview-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            color: white;
+        }
+
+        .preview-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 900;
+        }
+
+        .preview-header p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+
+        .layout-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .layout-card {
+            background: #1e293b;
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid #334155;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .layout-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(102, 126, 234, 0.3);
+            border-color: #667eea;
+        }
+
+        .layout-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .layout-card h3 {
+            color: #f1f5f9;
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .layout-card p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .layout-tag {
+            display: inline-block;
+            background: rgba(102, 126, 234, 0.2);
+            color: #667eea;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            margin-top: 0.75rem;
+            margin-right: 0.5rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 1px solid #334155;
+        }
+
+        .footer p {
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="preview-header">
+        <h1>Testimonials Variety Pack</h1>
+        <p>35+ Beautiful Testimonial Layout Variations for Odoo</p>
+    </div>
+
+    <div class="layout-grid">
+        <div class="layout-card">
+            <div class="layout-number">1</div>
+            <h3>Classic Card Grid</h3>
+            <p>Traditional card-based layout with avatars, star ratings, and testimonial text.</p>
+            <span class="layout-tag">Grid</span>
+            <span class="layout-tag">Classic</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">2</div>
+            <h3>Modern Glassmorphism</h3>
+            <p>Trendy glass-effect cards with backdrop blur and gradient borders.</p>
+            <span class="layout-tag">Glass</span>
+            <span class="layout-tag">Modern</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">3</div>
+            <h3>Horizontal Scroll Marquee</h3>
+            <p>Auto-scrolling horizontal testimonials with pause-on-hover.</p>
+            <span class="layout-tag">Animated</span>
+            <span class="layout-tag">Marquee</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">4</div>
+            <h3>Masonry Grid Layout</h3>
+            <p>Pinterest-style layout with varied height cards for dynamic display.</p>
+            <span class="layout-tag">Masonry</span>
+            <span class="layout-tag">Dynamic</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">5</div>
+            <h3>Carousel Slider</h3>
+            <p>Auto-rotating testimonial slider with dot navigation controls.</p>
+            <span class="layout-tag">Interactive</span>
+            <span class="layout-tag">Carousel</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">6</div>
+            <h3>Vertical Timeline</h3>
+            <p>Timeline-based testimonial display showing customer journey.</p>
+            <span class="layout-tag">Timeline</span>
+            <span class="layout-tag">Vertical</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">7</div>
+            <h3>Bento Grid Modern</h3>
+            <p>Modern bento-box style grid with varying card sizes.</p>
+            <span class="layout-tag">Bento</span>
+            <span class="layout-tag">Trendy</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">8</div>
+            <h3>Minimal Clean Design</h3>
+            <p>Minimalist border-left style focusing on content.</p>
+            <span class="layout-tag">Minimal</span>
+            <span class="layout-tag">Clean</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">9</div>
+            <h3>3D Card Stack</h3>
+            <p>Perspective-based stacked cards with 3D transforms.</p>
+            <span class="layout-tag">3D</span>
+            <span class="layout-tag">Premium</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">10</div>
+            <h3>Split Screen Dual</h3>
+            <p>Two-column layout with testimonial and key highlights.</p>
+            <span class="layout-tag">Split</span>
+            <span class="layout-tag">Dual</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">11</div>
+            <h3>Vibrant Gradient Cards</h3>
+            <p>Colorful gradient backgrounds with glow effects.</p>
+            <span class="layout-tag">Gradient</span>
+            <span class="layout-tag">Vibrant</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">12</div>
+            <h3>Video Background Style</h3>
+            <p>Testimonials overlaid on animated gradient backgrounds.</p>
+            <span class="layout-tag">Video</span>
+            <span class="layout-tag">Animated</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">13</div>
+            <h3>Neon Cyberpunk</h3>
+            <p>Futuristic neon-glow styling for tech brands.</p>
+            <span class="layout-tag">Neon</span>
+            <span class="layout-tag">Futuristic</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">14</div>
+            <h3>Floating Bubbles</h3>
+            <p>Animated floating bubble testimonials with depth.</p>
+            <span class="layout-tag">Animated</span>
+            <span class="layout-tag">Creative</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">15</div>
+            <h3>Testimonial Wall</h3>
+            <p>Multi-column wall of compact testimonials.</p>
+            <span class="layout-tag">Wall</span>
+            <span class="layout-tag">Compact</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">16</div>
+            <h3>Compact List View</h3>
+            <p>Space-efficient horizontal list format.</p>
+            <span class="layout-tag">List</span>
+            <span class="layout-tag">Efficient</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">17</div>
+            <h3>Hexagon Grid</h3>
+            <p>Unique hexagonal card shapes for standout design.</p>
+            <span class="layout-tag">Geometric</span>
+            <span class="layout-tag">Unique</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">18</div>
+            <h3>Polaroid Style</h3>
+            <p>Vintage polaroid photo effect with rotation.</p>
+            <span class="layout-tag">Vintage</span>
+            <span class="layout-tag">Retro</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">19</div>
+            <h3>Social Media Style</h3>
+            <p>Twitter/X-like testimonial cards with engagement metrics.</p>
+            <span class="layout-tag">Social</span>
+            <span class="layout-tag">Modern</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">20</div>
+            <h3>Featured Quote Slider</h3>
+            <p>Large featured testimonial with prominent imagery.</p>
+            <span class="layout-tag">Featured</span>
+            <span class="layout-tag">Hero</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">21</div>
+            <h3>Accordion Expandable</h3>
+            <p>Click to expand testimonial details and save space.</p>
+            <span class="layout-tag">Interactive</span>
+            <span class="layout-tag">Accordion</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">22</div>
+            <h3>Stats & Testimonials</h3>
+            <p>Combined statistics display with customer testimonials.</p>
+            <span class="layout-tag">Stats</span>
+            <span class="layout-tag">Hybrid</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">23</div>
+            <h3>Badge Collection</h3>
+            <p>Award and badge-style testimonials for achievements.</p>
+            <span class="layout-tag">Badges</span>
+            <span class="layout-tag">Awards</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">24</div>
+            <h3>Vertical Auto-Scroll</h3>
+            <p>Vertically scrolling testimonials with seamless loop.</p>
+            <span class="layout-tag">Vertical</span>
+            <span class="layout-tag">Auto-Scroll</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">25</div>
+            <h3>Interactive Flip Cards</h3>
+            <p>Hover to flip cards and reveal full testimonial text.</p>
+            <span class="layout-tag">Interactive</span>
+            <span class="layout-tag">Flip</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">26</div>
+            <h3>Diagonal Stacked Cards</h3>
+            <p>Angled stacked cards with depth perspective.</p>
+            <span class="layout-tag">3D</span>
+            <span class="layout-tag">Creative</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">27</div>
+            <h3>Radial Burst Layout</h3>
+            <p>Circular arrangement around a central rating badge.</p>
+            <span class="layout-tag">Radial</span>
+            <span class="layout-tag">Unique</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">28</div>
+            <h3>Netflix-Style Slider</h3>
+            <p>Horizontal scrollable cards with navigation buttons.</p>
+            <span class="layout-tag">Slider</span>
+            <span class="layout-tag">Media</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">29</div>
+            <h3>Seamless Infinite Loop</h3>
+            <p>Continuously scrolling horizontal marquee loop.</p>
+            <span class="layout-tag">Animated</span>
+            <span class="layout-tag">Loop</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">30</div>
+            <h3>Video Testimonials Grid</h3>
+            <p>Grid of video-style testimonial cards with thumbnails.</p>
+            <span class="layout-tag">Video</span>
+            <span class="layout-tag">Grid</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">31</div>
+            <h3>Parallax Quote Overlay</h3>
+            <p>Large quote with parallax background effect.</p>
+            <span class="layout-tag">Parallax</span>
+            <span class="layout-tag">Hero</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">32</div>
+            <h3>Live Ticker Feed</h3>
+            <p>News-style real-time testimonial feed.</p>
+            <span class="layout-tag">Ticker</span>
+            <span class="layout-tag">Live</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">33</div>
+            <h3>Scale Effect Carousel</h3>
+            <p>Carousel where the center item scales up.</p>
+            <span class="layout-tag">Carousel</span>
+            <span class="layout-tag">Scale</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">34</div>
+            <h3>Spotlight Focus Effect</h3>
+            <p>Cards that glow and highlight on hover.</p>
+            <span class="layout-tag">Hover</span>
+            <span class="layout-tag">Spotlight</span>
+        </div>
+
+        <div class="layout-card">
+            <div class="layout-number">35</div>
+            <h3>Multi-Tier Rating Display</h3>
+            <p>Detailed rating breakdown with highlight reviews.</p>
+            <span class="layout-tag">Data</span>
+            <span class="layout-tag">Detailed</span>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2024 Testimonials Variety Pack for Odoo | Version 18.0.1.0</p>
+        <p style="margin-top: 0.5rem;">Inspired by theme_marquee • Created by Denglee</p>
+    </div>
+</body>
+
+</html>
